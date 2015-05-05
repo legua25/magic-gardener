@@ -1,7 +1,7 @@
-THC
-An intelligent automatic sprikler system.
+## THC
+# An intelligent automatic sprikler system.
 
-Requirements
+# Requirements
 
 Python 2.7 (see requirements.txt)
 Supervisor
@@ -15,10 +15,10 @@ Thermometer and ambient humidity sensor DHT11
 12v DC power source.
 5v 2A USB power source.
 
-Usage examples
+# Usage examples
 (thc)pi@raspberrypi ~/magic-gardener/tree $ python __init__.py -m 0.7 -t 250 -s /dev/ttyUSB0
 
-Features
+# Features
 
 Soil moisture control: 
 Using the moisture threshold data and the ambient humidity sensor, by continuously monitoring its state, it will choose an action to keep it under the defined range.
